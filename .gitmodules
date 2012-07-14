@@ -1,0 +1,3 @@
+[submodule "IRPaginatedView"]
+	path = IRPaginatedView
+	url = git://github.com/iridia/IRPaginatedView.git

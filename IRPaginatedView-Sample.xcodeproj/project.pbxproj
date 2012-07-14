@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF7C609515B19BC300D3F3AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C609415B19BC300D3F3AF /* UIKit.framework */; };
+		FF7C609715B19BC300D3F3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C609615B19BC300D3F3AF /* Foundation.framework */; };
+		FF7C609915B19BC300D3F3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C609815B19BC300D3F3AF /* CoreGraphics.framework */; };
+		FF7C609F15B19BC300D3F3AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7C609D15B19BC300D3F3AF /* InfoPlist.strings */; };
+		FF7C60A115B19BC300D3F3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C60A015B19BC300D3F3AF /* main.m */; };
+		FF7C60A515B19BC300D3F3AF /* IRPVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C60A415B19BC300D3F3AF /* IRPVSAppDelegate.m */; };
+		FF7C60A815B19BC300D3F3AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C60A615B19BC300D3F3AF /* MainStoryboard.storyboard */; };
+		FF7C60AB15B19BC300D3F3AF /* IRPVSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C60AA15B19BC300D3F3AF /* IRPVSViewController.m */; };
+		FF7C60C315B1A69D00D3F3AF /* libIRPaginatedView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C60C015B1A46B00D3F3AF /* libIRPaginatedView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7C60BF15B1A46B00D3F3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7C60B815B1A46B00D3F3AF /* IRPaginatedView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFDB8F8D15944C6600FA7E9B;
+			remoteInfo = IRPaginatedView;
+		};
+		FF7C60C115B1A69700D3F3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7C60B815B1A46B00D3F3AF /* IRPaginatedView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDB8F8C15944C6600FA7E9B;
+			remoteInfo = IRPaginatedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7C609015B19BC300D3F3AF /* IRPaginatedView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRPaginatedView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C609415B19BC300D3F3AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF7C609615B19BC300D3F3AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF7C609815B19BC300D3F3AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF7C609C15B19BC300D3F3AF /* IRPaginatedView-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRPaginatedView-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF7C609E15B19BC300D3F3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF7C60A015B19BC300D3F3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF7C60A215B19BC300D3F3AF /* IRPaginatedView-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRPaginatedView-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF7C60A315B19BC300D3F3AF /* IRPVSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRPVSAppDelegate.h; path = "IRPaginatedView-Sample/IRPVSAppDelegate.h"; sourceTree = "<group>"; };
+		FF7C60A415B19BC300D3F3AF /* IRPVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRPVSAppDelegate.m; path = "IRPaginatedView-Sample/IRPVSAppDelegate.m"; sourceTree = "<group>"; };
+		FF7C60A715B19BC300D3F3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF7C60A915B19BC300D3F3AF /* IRPVSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRPVSViewController.h; path = "IRPaginatedView-Sample/IRPVSViewController.h"; sourceTree = "<group>"; };
+		FF7C60AA15B19BC300D3F3AF /* IRPVSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRPVSViewController.m; path = "IRPaginatedView-Sample/IRPVSViewController.m"; sourceTree = "<group>"; };
+		FF7C60B815B1A46B00D3F3AF /* IRPaginatedView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRPaginatedView.xcodeproj; path = IRPaginatedView/IRPaginatedView.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7C608D15B19BC300D3F3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C60C315B1A69D00D3F3AF /* libIRPaginatedView.a in Frameworks */,
+				FF7C609515B19BC300D3F3AF /* UIKit.framework in Frameworks */,
+				FF7C609715B19BC300D3F3AF /* Foundation.framework in Frameworks */,
+				FF7C609915B19BC300D3F3AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7C608515B19BC300D3F3AF = {
+			isa = PBXGroup;
+			children = (
+				FF7C60A315B19BC300D3F3AF /* IRPVSAppDelegate.h */,
+				FF7C60A415B19BC300D3F3AF /* IRPVSAppDelegate.m */,
+				FF7C60A915B19BC300D3F3AF /* IRPVSViewController.h */,
+				FF7C60AA15B19BC300D3F3AF /* IRPVSViewController.m */,
+				FF7C60A615B19BC300D3F3AF /* MainStoryboard.storyboard */,
+				FF7C609B15B19BC300D3F3AF /* Supporting Files */,
+				FF7C609315B19BC300D3F3AF /* Frameworks */,
+				FF7C609115B19BC300D3F3AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7C609115B19BC300D3F3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C609015B19BC300D3F3AF /* IRPaginatedView-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7C609315B19BC300D3F3AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C609415B19BC300D3F3AF /* UIKit.framework */,
+				FF7C609615B19BC300D3F3AF /* Foundation.framework */,
+				FF7C609815B19BC300D3F3AF /* CoreGraphics.framework */,
+				FF7C60B815B1A46B00D3F3AF /* IRPaginatedView.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7C609B15B19BC300D3F3AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C609C15B19BC300D3F3AF /* IRPaginatedView-Sample-Info.plist */,
+				FF7C609D15B19BC300D3F3AF /* InfoPlist.strings */,
+				FF7C60A015B19BC300D3F3AF /* main.m */,
+				FF7C60A215B19BC300D3F3AF /* IRPaginatedView-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "IRPaginatedView-Sample";
+			sourceTree = "<group>";
+		};
+		FF7C60B915B1A46B00D3F3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C60C015B1A46B00D3F3AF /* libIRPaginatedView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7C608F15B19BC300D3F3AF /* IRPaginatedView-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7C60AE15B19BC300D3F3AF /* Build configuration list for PBXNativeTarget "IRPaginatedView-Sample" */;
+			buildPhases = (
+				FF7C608C15B19BC300D3F3AF /* Sources */,
+				FF7C608D15B19BC300D3F3AF /* Frameworks */,
+				FF7C608E15B19BC300D3F3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7C60C215B1A69700D3F3AF /* PBXTargetDependency */,
+			);
+			name = "IRPaginatedView-Sample";
+			productName = "IRPaginatedView-Sample";
+			productReference = FF7C609015B19BC300D3F3AF /* IRPaginatedView-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7C608715B19BC300D3F3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IRPVS;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF7C608A15B19BC300D3F3AF /* Build configuration list for PBXProject "IRPaginatedView-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF7C608515B19BC300D3F3AF;
+			productRefGroup = FF7C609115B19BC300D3F3AF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF7C60B915B1A46B00D3F3AF /* Products */;
+					ProjectRef = FF7C60B815B1A46B00D3F3AF /* IRPaginatedView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF7C608F15B19BC300D3F3AF /* IRPaginatedView-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF7C60C015B1A46B00D3F3AF /* libIRPaginatedView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIRPaginatedView.a;
+			remoteRef = FF7C60BF15B1A46B00D3F3AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7C608E15B19BC300D3F3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C609F15B19BC300D3F3AF /* InfoPlist.strings in Resources */,
+				FF7C60A815B19BC300D3F3AF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7C608C15B19BC300D3F3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C60A115B19BC300D3F3AF /* main.m in Sources */,
+				FF7C60A515B19BC300D3F3AF /* IRPVSAppDelegate.m in Sources */,
+				FF7C60AB15B19BC300D3F3AF /* IRPVSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7C60C215B1A69700D3F3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRPaginatedView;
+			targetProxy = FF7C60C115B1A69700D3F3AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7C609D15B19BC300D3F3AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7C609E15B19BC300D3F3AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF7C60A615B19BC300D3F3AF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7C60A715B19BC300D3F3AF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = "IRPaginatedView-Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7C60AC15B19BC300D3F3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRPaginatedView/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF7C60AD15B19BC300D3F3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRPaginatedView/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7C60AF15B19BC300D3F3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRPaginatedView-Sample/IRPaginatedView-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRPaginatedView-Sample/IRPaginatedView-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF7C60B015B19BC300D3F3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRPaginatedView-Sample/IRPaginatedView-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRPaginatedView-Sample/IRPaginatedView-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7C608A15B19BC300D3F3AF /* Build configuration list for PBXProject "IRPaginatedView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C60AC15B19BC300D3F3AF /* Debug */,
+				FF7C60AD15B19BC300D3F3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7C60AE15B19BC300D3F3AF /* Build configuration list for PBXNativeTarget "IRPaginatedView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C60AF15B19BC300D3F3AF /* Debug */,
+				FF7C60B015B19BC300D3F3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7C608715B19BC300D3F3AF /* Project object */;
+}
